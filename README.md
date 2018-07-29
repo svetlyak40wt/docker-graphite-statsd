@@ -4,6 +4,11 @@ Any suggestions / patches etc. are welcome!
 
 # Docker Image for Graphite & Statsd
 
+## Changes from the original graphite-project/docker-graphite-statsd
+
+* Ngins was moved to 9081 port.
+
+
 ## Get Graphite & Statsd running instantly
 
 Graphite & Statsd can be complex to setup.
