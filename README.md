@@ -7,6 +7,7 @@ Any suggestions / patches etc. are welcome!
 ## Changes from the original graphite-project/docker-graphite-statsd
 
 * Ngins was moved to 9081 port.
+* Carbon aggregator was disabled.
 
 
 ## Get Graphite & Statsd running instantly
