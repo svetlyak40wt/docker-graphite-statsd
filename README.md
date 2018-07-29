@@ -8,6 +8,7 @@ Any suggestions / patches etc. are welcome!
 
 * Ngins was moved to 9081 port.
 * Carbon aggregator was disabled.
+* `URL_PREFIX` for Graphite was set to `'/graphite/'`.
 
 
 ## Get Graphite & Statsd running instantly

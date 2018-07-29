@@ -207,6 +207,8 @@ import os
 LOG_DIR = '/var/log/graphite'
 SECRET_KEY = '$(date +%s | sha256sum | base64 | head -c 64)'
 
+URL_PREFIX = '/graphite/'
+
 if (os.getenv("MEMCACHE_HOST") is not None):
     MEMCACHE_HOSTS = os.getenv("MEMCACHE_HOST").split(",")
 
